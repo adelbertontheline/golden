@@ -1,0 +1,9 @@
+/*
+
+My Custom JS
+
+*/
+
+$(function() {
+	
+});

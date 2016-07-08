@@ -1,0 +1,158 @@
+/*
+
+My Custom CSS
+
+*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, p, a {
+	font-weight: 300;
+}
+
+
+
+
+
+.site-logo {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+
+
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu__item {
+	display: inline-block;
+	float: left;
+}
+
+.menu__item a {
+	color: white;
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px 15px;
+	text-align:center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+}
+
+.menu__item a:hover {
+	background: rgba(0,0,153,0.7);
+}
+
+.site-nav nav {
+	float: right;
+}
+
+
+
+
+
+.stage {
+	background: #000 url('../../img/stageTint.png') no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: auto;
+	min-height: 100vh;
+}
+
+.stage-content {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.stage-titles {
+	min-height: 80vh;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.stage-titles .container {
+	width: 100%;
+}
+
+.site-title {
+	font-size: 80px;
+	color: white;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.tagline {
+	font-size: 40px;
+	color: white;
+	font-family: 'Montserrat';
+	font-weight: 100;
+}
+
+#stage-btn {
+	background-color: #fed136;
+	border-color: transparent;
+	font-family: 'Montserrat';
+	margin-top: 3rem;
+}
+
+
+
+
+
+.section-content {
+	padding: 6rem 0;
+}
+
+.section-title {
+	font-size: 45px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+
+.section-subtitle {
+	text-align: center;
+}
+
+
+
+
+
+.services {
+	text-align: center;
+}
+
+.icons {
+	padding: 1rem; 
+}
+
+
+
+
+.portfolio {
+	background: #f7f7f7;
+}
+
+.desc-container {
+
+}
+
+.portfolio__desc {
+	text-align: center;
+	margin: 0;
+}
