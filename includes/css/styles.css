@@ -12,6 +12,11 @@ h1, h2, p, a {
 	font-weight: 300;
 }
 
+h1, h2 {
+	padding: 0;
+	margin: 0;
+}
+
 
 
 
@@ -19,7 +24,7 @@ h1, h2, p, a {
 .site-logo {
 	display: flex;
 	align-items: center;
-	padding: 5px 10px;
+	padding: 5px 0px;
 }
 
 
@@ -37,21 +42,34 @@ h1, h2, p, a {
 	float: left;
 }
 
+.menu__item--social {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 .menu__item a {
 	color: white;
 	display: block;
 	font-size: 14px;
 	font-weight: 300;
 	padding: 5px 15px;
-	text-align:center;
+	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Montserrat';
 	letter-spacing: 2px;
 }
 
+.menu__item--social a {
+	padding: 0;
+}
+
 .menu__item a:hover {
 	background: rgba(0,0,153,0.7);
+}
+
+.menu__item--social a:hover {
+	background: none;
 }
 
 .site-nav nav {
@@ -72,7 +90,7 @@ h1, h2, p, a {
 }
 
 .stage-content {
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	width: 100%;
 }
@@ -156,6 +174,7 @@ h1, h2, p, a {
 .portfolio__desc {
 	text-align: center;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .list {
@@ -170,4 +189,12 @@ h1, h2, p, a {
 
 .list__item {
 	margin-top: 3rem;
+}
+
+
+
+
+.our-team {
+	background-color: #f9f9f9;
+	text-align: center;
 }
