@@ -1,0 +1,165 @@
+/*
+
+My Custom CSS
+
+*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-weight: 300;
+}
+
+
+
+
+
+.site-logo {
+	display: flex;
+	align-items: center;
+	padding: 5px 0px;
+}
+
+
+
+
+
+.stage-content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+
+
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu--social {
+	display: table;
+	margin: auto;
+}
+
+.menu__item {
+	display: inline-block;
+	float: left;
+}
+
+.menu__item--social {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: table-cell;
+}
+
+.menu__item a {
+	color: white;
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+}
+
+.menu__item--social a {
+	padding: 0;
+}
+
+.menu__item a:hover {
+	border-bottom: 1px solid white;
+	color: rgba(255,255,255,0.6);
+}
+
+.menu__item--social a:hover {
+	background: none;
+}
+
+.site-nav nav {
+	float: right;
+}
+
+.active {
+	border-bottom: 1px solid white;
+}
+
+
+
+
+
+.section-content {
+	padding: 6rem 0;
+}
+
+.section-title {
+	font-size: 45px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+
+.section-subtitle {
+	text-align: center;
+	color: #8c8c8c;
+}
+
+
+
+
+
+.contact-us {
+	background: url('../../img/map.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact-us textarea {
+	resize: none;
+}
+
+#send-msg-btn {
+	background-color: #fed136;
+	border-color: transparent;
+	font-family: 'Montserrat';
+	margin-top: 1rem;
+}
+
+
+
+
+.contact-page {
+	background: url('../../cityscape.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact-work {
+	padding: 5rem;
+  	background: #00bcd4;
+	text-align: center;
+	color: white;
+}
+
+.contact-play {
+	padding: 5rem;
+  	background: #d55dad;
+  	text-align: center;
+  	color: white;
+}
+
+.phone-num {
+	margin-top: 3rem;
+	text-align: center;
+	color: black;
+	font-family: 'Verdana';
+}
