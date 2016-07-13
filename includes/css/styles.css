@@ -169,7 +169,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
-
 /**********************************
 * Services Section Style
 **********************************/
@@ -181,6 +180,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .icons {
 	padding: 1rem;
 }
+
 
 
 
@@ -256,6 +256,28 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+/**********************************
+* Footer Logos Section Style
+**********************************/
+
+.footer-logos .flex__item {
+	margin-top: 1rem;
+}
+
+.footer-logos .section-content {
+	padding: 3rem 0 4rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -320,9 +342,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 **********************************/
 
 .services-page__head {
-	background: url('../../img/computer.jpg') no-repeat;
+	background: url('../../img/request.jpeg') no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 }
 
 .services-page {
@@ -330,7 +352,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .services-page__tagline {
-	color: #fff;
+	color: #595959;
 }
 
 /*.services__item {
@@ -367,9 +389,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .request-bg	{
-	background: url('../../img/request.jpeg') no-repeat;
+	background: url('../../img/computer.jpg') no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: top center;
 	padding: 0;
 }
 
