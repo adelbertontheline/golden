@@ -1,20 +1,43 @@
-/*
+/**********************************
+* My Custom CSS
+**********************************/
 
-My Custom CSS
 
-*/
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
 	font-weight: 300;
 }
 
+.section-content {
+	padding: 6rem 0;
+}
+
+.section-title {
+	font-size: 45px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+}
+
+.section-subtitle {
+	text-align: center;
+	color: #8c8c8c;
+}
 
 
 
+
+
+/**********************************
+* Logo Style
+**********************************/
 
 .site-logo {
 	display: flex;
@@ -25,6 +48,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+
+/**********************************
+* List Style
+**********************************/
 
 .menu {
 	list-style: none;
@@ -86,6 +113,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+/**********************************
+* Stage Style
+**********************************/
+
 .stage {
 	background: #000 url('../../img/stageTint.png') no-repeat;
 	background-size: cover;
@@ -138,26 +169,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
-.section-content {
-	padding: 6rem 0;
-}
 
-.section-title {
-	font-size: 45px;
-	color: black;
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 500;
-}
-
-.section-subtitle {
-	text-align: center;
-	color: #8c8c8c;
-}
-
-
-
-
+/**********************************
+* Services Section Style
+**********************************/
 
 .services {
 	text-align: center;
@@ -169,6 +184,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+
+/**********************************
+* Portfolio Section Style
+**********************************/
 
 .portfolio {
 	background: #f7f7f7;
@@ -185,7 +204,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 0;
 	margin: 0;
 }
@@ -197,6 +216,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+
+/**********************************
+* Our Team Section Style
+**********************************/
+
 .our-team {
 	background-color: #f9f9f9;
 	text-align: center;
@@ -206,10 +230,15 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+/**********************************
+* Contact Us Section Style
+**********************************/
+
 .contact-us {
 	background: url('../../img/map.png') no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: top center;
+
 }
 
 .contact-us textarea {
@@ -226,27 +255,126 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 
+
+
+
+
+
+
+/**********************************
+* HTML Pages Style
+**********************************/
+
+/**********************************
+* Cotact Page Style
+**********************************/
+
 .contact-page {
-	background: #f2f2f2;
+	background-color: #f2f2f2;
+	background: url('../../img/cityscape1.jpg') no-repeat;
+	background-size: cover;
+	background-position: top center;
 }
 
 .contact-work {
 	padding: 5rem;
-  	background: #00bcd4;
+  	background: rgba(0, 188, 212, 0.6);
 	text-align: center;
 	color: white;
 }
 
 .contact-play {
 	padding: 5rem;
-  	background: #d55dad;
+  	background: rgba(213, 93, 173, 0.6);
   	text-align: center;
   	color: white;
 }
 
 .phone-num {
-	margin-top: 2rem;
+	margin-top: 4rem;
 	text-align: center;
+	color: white;
+	font-family: 'Verdana';
+}
+
+.contact-page__address {
+	color: white;
+	text-align: center;
+}
+
+.contact-page a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact-page .section-subtitle {
 	color: black;
-	font-family: Verdana;
+}
+
+
+
+
+
+/**********************************
+* Cotact Page Style
+**********************************/
+
+.services-page__head {
+	background: url('../../img/computer.jpg') no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.services-page {
+	background-color: #f2f2f2;
+}
+
+.services-page__tagline {
+	color: #fff;
+}
+
+/*.services__item {
+	background: gray;
+	color: white;
+	text-align: center;
+	padding: 1rem 1rem;
+	margin: 1rem;
+}*/
+
+.services-page .flex__item {
+	width: auto;
+	width: 350px;
+	height: 300px;
+	background-color: tomato;
+	color: white;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: space-around;
+  	overflow: auto;
+  	margin-top: 3rem;
+  	padding: 1%;
+  	line-height: 1.3;
+  	text-align: center;
+}
+
+.services-page .flex__item a {
+	text-decoration: none;
+	color: white;
+}
+
+.services-page .flex__item a:hover {
+	color: blue;
+}
+
+.request-bg	{
+	background: url('../../img/request.jpeg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+.text-container {
+	background-color: rgba(0,0,0,0.6);
+	padding: 5rem 3rem;
+	color: white;
 }
