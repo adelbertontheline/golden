@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .contact-page {
 	background-color: #f2f2f2;
-	background: url('../../img/cityscape1.jpg') no-repeat;
+	background: url('../../img/cityscape.jpg') no-repeat;
 	background-size: cover;
 	background-position: top center;
 }
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 	padding: 0;
 }
 
-.text-container {
+.request-bg__text-container {
 	background-color: rgba(0,0,0,0.6);
 	padding: 5rem 3rem;
 	color: white;
