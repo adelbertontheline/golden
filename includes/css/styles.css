@@ -400,3 +400,60 @@ h1, h2, h3, h4, h5, h6, p, a {
 	padding: 5rem 3rem;
 	color: white;
 }
+
+
+
+
+
+
+
+
+.about-page__head {
+	height: auto;
+	width: 100%;
+}
+
+.section-subtitle--about-page {
+	font-family: 'Times New Roman';
+	font-size: 60px;
+}
+
+.content-title {
+	color: #f26f70;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 10px;
+	font-weight: bold;
+}
+
+.content-paragraph {
+	font-family: 'Times New Roman';
+	font-size: 24px;
+}
+
+.core-values__item {
+	font-size: 80px;
+	color: #262626;
+	text-align: center;
+	font-family: 'Lato';
+	font-weight: 300;
+}
+
+.content-paragraph--core {
+	color: gray;
+	text-align: center;
+	font-style: italic;
+}
+
+.booking-bg {
+	background: url('../../img/office.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+.booking-bg__text-container {
+	background-color: rgba(0,0,0,0.6);
+	padding: 5rem 3rem;
+	color: white;
+}
